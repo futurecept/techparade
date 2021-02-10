@@ -16575,6 +16575,15 @@ select.form-control.form-control-soft-dark:focus::-ms-value {
   height: 3.375rem;
 }
 
+@media (max-width: 325px) {
+  .btn-icon.btn-lg,
+  .btn-group-lg > .btn-icon.btn {
+    font-size: 1.25rem;
+    width: 2.75rem;
+  height: 2.75rem;
+  }
+}
+
 .btn-outline-primary {
   border-color: #0c56de;
 }
@@ -17069,8 +17078,8 @@ select.form-control.form-control-soft-dark:focus::-ms-value {
 }
 
 .site-logo img {
-  height: 13%;
-  width: 13%;
+  height: 10rem;
+  width: 10rem;
 }
 
 .site-logo-light .site-logo-img-dark {
