@@ -2219,6 +2219,11 @@ textarea.form-control {
   height: auto;
 }
 
+.form-field-hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 .form-group {
   margin-bottom: 1rem;
 }

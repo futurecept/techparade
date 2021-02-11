@@ -169,38 +169,33 @@
             </p>
             <div class="subscribe-form">
               <form
-                id="sf"
-                name="sf"
-                action="include/subscribe.php"
-                method="post"
+                id="signup-form"
+                name="Coming Soon TP"
+                netlify-honeypot="bot-field"
+                action="thank-you" data-netlify="true"
               >
                 <div class="form-process"></div>
                 <div class="form-group">
                   <input
                     type="email"
-                    id="sf-email"
-                    name="sf-email"
+                    id="email"
+                    name="E-mail"
                     placeholder="Enter Your E-Mail ID"
                     class="form-control required"
                   />
                 </div>
-                <input
-                  type="text"
-                  id="sf-botcheck"
-                  name="sf-botcheck"
-                  value=""
-                  class="form-control d-none"
-                />
+                <p class="form-field-hidden">
+                  <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                </p>
                 <button
-                  class="mt-6 btn btn-primary btn-block"
+                  class="btn btn-primary btn-block"
                   type="submit"
-                  id="sf-submit"
-                  name="sf-submit"
+                  id="submit"
+                  name="Submit"
                 >
                   Subscribe
                 </button>
               </form>
-              <div class="subscribe-form-result"></div>
             </div>
           </div>
         </div>
